@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    width: 300px;
+    border: 5px solid black;
+    margin:10px;
+
+}
+
+.box{
+    width: 1110px;
+    border:none;
+    position:relative;
+
+
+}
+.amarillo{
+    background: yellow;
+    padding: 20px;
+}
+
+.rojo{
+    background: red;
+    padding: 20px;
+
+}
+.azul{
+    background: blue;
+    padding: 20px;
+}
+/*
+.box:hover .rojo{
+    transform: translate(370px, -170px);
+    transition: 2s;
+}
+.box:hover .azul{
+    transform: translate(740px, -340px);
+    transition: 2s;
+}*/
+
+.box:hover .rojo{
+    transform: translate(150px,-100px);
+    transition: 2s;
+}
+
+.box:hover .azul{
+    transform: translate(300px,-200px);
+    transition: 2s;
+}
